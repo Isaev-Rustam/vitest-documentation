@@ -1,6 +1,5 @@
 # Используй плагин ESLint для библиотеки тестирования
 Если ты хочешь избежать некоторых распространенных ошибок, то официальные плагины ESLint могут сильно тебе в этом помочь:
-
 - eslint-plugin-testing-library
 - eslint-plugin-jest-dom
 
@@ -44,9 +43,9 @@ test: {
 ```
 3. `yarn add -D @testing-library/react @testing-library/jest-dom` подключаем саму библиотеку `React Testing Library`
 4. `yarn add -D @testing-library/user-event` добавляем библиотеку, чтобы имитировать действия пользователей
-5. Создаем файл setup, чтобы не писать настройки для каждого файла отдельно со следующим содержимым:
+5. Создаем файл setup.ts, чтобы не писать настройки для каждого файла отдельно со следующим содержимым:
 ```js
-//setup.js
+//setup.ts
 import { expect, afterEach } from 'vitest';
 import { cleanup } from '@testing-library/react';
 import matchers from '@testing-library/jest-dom/matchers';
