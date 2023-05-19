@@ -1,6 +1,6 @@
 # Тестирование React
 - [article - use](https://www.robinwieruch.de/react-testing-library/)
-- [примеры тестирования компонентов](https://www.robinwieruch.de/react-testing-library/](https://github.com/nareshbhatia/react-testing-techniques/tree/main/docs))
+- [примеры тестирования компонентов](https://github.com/nareshbhatia/react-testing-techniques/tree/main/docs)
 - [article - pattern](https://frontend-stuff.com/blog/common-mistakes-with-react-testing-library/)
 - [youtube](https://www.youtube.com/watch?v=T2sv8jXoP4s&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd&index=1)
 - [youtube](https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&index=1)
